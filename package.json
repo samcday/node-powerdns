@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/samcday/node-powerdns/issues"
   },
-  "homepage": "https://github.com/samcday/node-powerdns"
+  "homepage": "https://github.com/samcday/node-powerdns",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
 }
