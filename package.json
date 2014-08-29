@@ -1,0 +1,27 @@
+{
+  "name": "powerdns",
+  "version": "0.0.0",
+  "description": "PowerDNS REST client.",
+  "main": "powerdns.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samcday/node-powerdns.git"
+  },
+  "keywords": [
+    "powerdns",
+    "pdns",
+    "rest",
+    "api",
+    "dns",
+    "client"
+  ],
+  "author": "Sam Day <me@samcday.com.au>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samcday/node-powerdns/issues"
+  },
+  "homepage": "https://github.com/samcday/node-powerdns"
+}
