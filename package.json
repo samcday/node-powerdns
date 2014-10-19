@@ -24,7 +24,27 @@
     "url": "https://github.com/samcday/node-powerdns/issues"
   },
   "homepage": "https://github.com/samcday/node-powerdns",
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org"
+  "devDependencies": {
+    "traceurified-module": "0.0.1"
+  },
+  "dependencies": {
+    "bluebird": "^2.3.6",
+    "request": "^2.45.0",
+    "traceurified-module-runtime": "0.0.1"
+  },
+  "jshintConfig": {
+    "node": true,
+    "esnext": true,
+    "globals": {
+      "Promise": true
+    }
+  },
+  "traceurified": {
+    "files": [
+      "index.js"
+    ],
+    "options": {
+      "asyncFunctions": true
+    }
   }
 }
